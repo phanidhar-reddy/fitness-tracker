@@ -1,0 +1,63 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.smoothScrolling": true,
+    "editor.wordWrap": "on",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.fontLigatures": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/.code-workspace": true,
+      "**/.vscode": true,
+      "**/node_modules": true,
+      "**/.gitignore": true,
+      "**/.cache*": true,
+      "jsconfig.json": true,
+      "*.code-workspace": true,
+      "tsconfig.json": true,
+      "yarn*.*": true,
+      "**/*.lock": true,
+      "**/lerna.json": true,
+      "**/.eslintrc.json": true,
+      ".yarn": true,
+      "@types": true,
+      ".yarn*.*": true
+    },
+    "json.schemas": [
+      {
+        "fileMatch": ["src/SiteConfig.json"],
+        "url": "./node_modules/@d-lift/scripts/schema/$SiteConfig.json"
+      }
+    ],
+    "files.associations": {
+      "*.rt": "html",
+      "*.rts": "html",
+      "*.json5": "json5",
+      "*.json": "json"
+    },
+    "lift.assist.prefix": "-",
+    "html.format.indentInnerHtml": true
+  }
+}
